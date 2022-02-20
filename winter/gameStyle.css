@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    text-align: center;
+    background-color: black;
+    
+}
+
+canvas {
+    height: 100vh;
+}
+
+
+@media only screen and (max-width: 600px){
+    body {
+        transform: rotate(90deg);
+    }
+    canvas {
+        width: 100vh;
+        height: 100vw;
+    }
+}
